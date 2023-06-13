@@ -22,10 +22,10 @@ export function buildWebpackConfig(
       filename: '[name].[contenthash].js',
       path: output,
       clean: true,
-    },
+    }, 
     plugins: buildPlugins(options),
     module: {
-      rules: buildLoaders(),
+      rules: buildLoaders(options),
     },
     resolve: buildResolvers(),
     devtool: isDev ? 'inline-source-map' : undefined,
