@@ -11,6 +11,8 @@ declare module '*.svg' {
   export default content;
 }
 
+declare const __IS_DEV__: boolean;
+
 declare module '*.jpg';
 declare module '*.jpeg';
 declare module '*.png';
