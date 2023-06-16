@@ -15,6 +15,7 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
     <Button
       onClick={toggleTheme}
       className={classNames(cls.themeSwitcher, {}, [className])}
+      // eslint-disable-next-line i18next/no-literal-string
       theme="clear"
     >
       {theme === Theme.DARK ? <DarkIcon /> : <LightIcon />}
