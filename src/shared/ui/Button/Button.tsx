@@ -1,8 +1,9 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import cls from './Button.module.scss';
 import { FC, HTMLAttributes } from 'react';
+import 'app/styles/index.scss';
 
-type ThemeButton = 'clear';
+type ThemeButton = 'clear' | 'outline';
 
 interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   className?: string;
