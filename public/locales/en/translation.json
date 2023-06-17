@@ -2,5 +2,9 @@
   "Тест": "Test",
   "Перевод": "Translate",
   "Главная страница": "Main page",
-  "Язык": "Русский"
+  "Язык": "English",
+  "Страница не найдена": "Page not found",
+  "Произошла непридвиденная ошибка": "An unhappy error occurred",
+  "Обновить страницу": "Refresh the page",
+  "Вызвать ошибку": "Throw an error"
 }
