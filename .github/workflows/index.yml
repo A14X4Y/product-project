@@ -21,11 +21,16 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: install modules
         run: yarn
+        if: always()
       - name: build production project
         run: yarn run build:prod
+        if: always()
       - name: linting typescript
+        if: always()
         run: yarn run lint:ts
       - name: unit testing
+        if: always()
         run: yarn run test:unit
       - name: build storybook
+        if: always()
         run: yarn run storybook:build
