@@ -40,4 +40,56 @@ export const Outline: Story = {
   },
 };
 
-Outline.decorators = [ThemeDecorator(Theme.DARK)];
+export const OutlineDark: Story = {
+  args: {
+    children: 'Text',
+    theme: 'outline',
+  },
+  decorators: [ThemeDecorator(Theme.DARK)],
+};
+
+export const BackgroundTheme: Story = {
+  args: {
+    children: 'Text',
+    theme: 'background',
+  },
+};
+export const BackgroundInvertedTheme: Story = {
+  args: {
+    children: 'Text',
+    theme: 'backgroundInverted',
+  },
+};
+export const Square: Story = {
+  args: {
+    children: '>',
+    theme: 'backgroundInverted',
+    square: true,
+    size: 'size_m',
+  },
+};
+export const SquareSizeS: Story = {
+  args: {
+    children: '>',
+    theme: 'backgroundInverted',
+    square: true,
+    size: 'size_s',
+  },
+};
+
+export const SquareSizeL: Story = {
+  args: {
+    children: '>',
+    theme: 'backgroundInverted',
+    square: true,
+    size: 'size_l',
+  },
+};
+export const SquareSizeXL: Story = {
+  args: {
+    children: '>',
+    theme: 'backgroundInverted',
+    square: true,
+    size: 'size_xl',
+  },
+};

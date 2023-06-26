@@ -15,7 +15,7 @@
     "test:ui": "yarn loki test",
     "test:ui:ok": "yarn loki approve",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook:build": "build-storybook -c .storybook"
   },
   "author": "A14X4Y <leshabelousov2001@gmail.com>",
   "license": "ISC",
