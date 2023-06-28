@@ -13,5 +13,7 @@
   "Войти": "Войти",
   "Зарегистрироваться": "Зарегистрироваться",
   "increment": "increment",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "Введите никнейм": "Введите никнейм",
+  "Введите пароль": "Enter password"
 }
