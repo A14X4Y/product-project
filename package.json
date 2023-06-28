@@ -19,7 +19,7 @@
     "test:ui:json": "node scripts/generate-visual-json-report.js",
     "test:ui:html": "reg-cli --from .loki/report.json --report .loki/report.html",
     "storybook": "storybook dev -p 6006",
-    "storybook:build": "build-storybook -c .storybook"
+    "storybook:build": "build-storybook -c storybook"
   },
   "author": "A14X4Y <leshabelousov2001@gmail.com>",
   "license": "ISC",

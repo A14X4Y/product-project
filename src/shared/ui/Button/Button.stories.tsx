@@ -26,10 +26,16 @@ export const Primary: Story = {
   },
 };
 
-export const Secondary: Story = {
+export const Clear: Story = {
   args: {
     children: 'Text',
     theme: 'clear',
+  },
+};
+export const ClearInverted: Story = {
+  args: {
+    children: 'Text',
+    theme: 'clearInverted',
   },
 };
 

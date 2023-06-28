@@ -2,3 +2,6 @@ node_modules
 yarn-error.log
 .env
 /build
+/storybook-static
+.loki/report.html
+.loki/report.json

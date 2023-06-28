@@ -17,7 +17,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'react', 'i18next'],
+  plugins: ['@typescript-eslint', 'react', 'i18next', 'react-hooks'],
   rules: {
     indent: ['error', 2],
     quotes: ['error', 'single'],
@@ -36,6 +36,8 @@ module.exports = {
         ignoreAttribute: ['data-testid', 'to', 'theme'],
       },
     ],
+    'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+    'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
   },
   globals: {
     __IS_DEV: true,

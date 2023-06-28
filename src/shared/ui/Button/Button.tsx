@@ -3,7 +3,7 @@ import cls from './Button.module.scss';
 import { FC, HTMLAttributes } from 'react';
 import 'app/styles/index.scss';
 
-type ButtonTheme = 'clear' | 'outline' | 'background' | 'backgroundInverted';
+type ButtonTheme = 'clear' | 'outline' | 'background' | 'backgroundInverted' | 'clearInverted';
 type Size = 's' | 'm' | 'l' | 'xl';
 type ButtonSize = `size_${Size}`;
 
