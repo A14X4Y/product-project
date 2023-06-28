@@ -11,5 +11,7 @@
   "О сайте": "About us",
   "Короткий язык": "En",
   "Войти": "Sign in",
-  "Зарегистрироваться": "Sign up"
+  "Зарегистрироваться": "Sign up",
+  "increment": "increment",
+  "decrement": "decrement"
 }
